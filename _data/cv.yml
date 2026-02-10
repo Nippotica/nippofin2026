@@ -1,0 +1,74 @@
+- title: Business
+  type: map
+  contents:
+    - name: Name
+      value: Nippofin (Nippotica Corporation Fintech Business Unit)
+    - name: 日本語
+      value: ニポティカ株式会社 
+    - name: CEO
+      value: <a https://www.linkedin.com/in/daijiro-nishi/">Daijiro Nishi</a>
+    - name: CMO
+      value: <a https://www.linkedin.com/in/tsuyoshi-hatao-52535727/">Tsuyoshi Hatao</a>
+    - name: Parent
+      value: Nippotica Corporation
+    - name: Location
+      value: Portal Point FD-02, Garden Place Glass Square, Shibuyaku Ebisu 4-20-4, Tokyo 150-6090, Japan
+    - name: Url
+      value: <a href="https://www.nippofin.com/">nippofin.com</a>
+    - name: Contact
+      value: <a href="mailto:info@nippotica.com">info@nippotica.com</a>
+      
+- title: Business
+  type: map
+  contents:
+    - name: Sector
+      value: Financial Computing
+    - name: Business Model
+      value: Engineering Services and Consulting
+    - name: Deliverables
+      value: Custom Quantitative Systems Development
+
+- title: Solutions
+  type: nested_list
+  contents:
+    - title: Services
+      items:
+        - Financial Engineering for Derivatives and Risk
+        - Cloud Computing Optimization
+        - System Development and Integration
+        - Data Quality Management
+    - title: Platforms
+      items:
+        - AWS, Azure, GCP Cloud Infrastructure
+        - NVIDIA A100/H100 GPUs for HPC
+        - Managed Kubernetes for Scalable Deployment
+    - title: Applications
+      items:
+        - Derivatives Pricing, XVA Calculation
+        - Portfolio Risk Management, Monte Carlo Simulation
+        - Market Surveillance, Trade Analytics
+        - Insurance Claims Processing, Actuarial Modeling
+
+- title: Technology Stack
+  type: nested_list
+  contents:
+    - title: Financial Computing
+      items:
+        - Quantitative Modeling, Monte Carlo Methods
+        - Risk Analytics, Portfolio Optimization
+        - Time Series Analysis, Statistical Modeling
+    - title: Frameworks & Libraries
+      items:
+        - NumPy, Pandas, SciPy, QuantLib
+        - TensorFlow, PyTorch, Scikit-Learn
+        - CUDA, cuDNN for GPU Acceleration
+    - title: Languages
+      items:
+        - Python, C++, Matlab, R
+        - Julia, Java, SQL
+
+- title: Affiliations
+  type: list
+  contents:
+    - <a href="https://www.simplex.inc/en/company/about/">Simplex Inc.</a>
+    - <a href="https://genero.jp/">Genero Inc.</a>
