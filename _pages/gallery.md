@@ -30,7 +30,7 @@ The platform runs on synthetic data throughout, which means it can be shown to a
 
 The Quant Gallery is an interactive quantitative finance tool suite targeting institutional applications. It has five tabs:
 
-- **Jäckel Implied Volatility** — fast IV solver using LBR and Larry's Vollib
+- **Jäckel Implied Volatility** — fast IV solver using LBR and our Larry's Vollib
 - **Fast Greeks** — option Greeks calculator with algorithmic differentiation
 - **Hit Probability** — barrier/touch probability analytics with heavy-tailed distributions
 - **Turbulence** — financial turbulence index via topological data analysis 
