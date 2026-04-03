@@ -16,6 +16,8 @@ Explore our live demonstrations of quantitative finance and market surveillance 
 
 **[Launch Application →](https://transapps.nippotica.com)**
 
+**[🇯🇵 アプリケーションを起動してください。→](https://transdemo.nippotica.com)**
+
 This is a financial market surveillance demonstration platform. It shows three things in sequence.
 
 First, what a clean market looks like — a live limit order book with no manipulation, so you have a baseline. Second, what manipulation looks like and how to detect it statistically — spoofing, wash trading, and front running, each with its own forensic fingerprint surfaced automatically from member behaviour. Third, real-time anomaly detection on continuous order flow, scoring every order as it arrives.
