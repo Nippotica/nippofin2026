@@ -28,7 +28,7 @@ The platform runs on synthetic data throughout, which means it can be shown to a
 
 ## Quant Gallery
 
-** Please contact us **
+Please contact us for a demo.
 
 The Quant Gallery is an interactive quantitative finance tool suite targeting institutional applications. It has five tabs:
 
@@ -42,6 +42,6 @@ The Quant Gallery is an interactive quantitative finance tool suite targeting in
 
 ## Dark Pool Monitor
 
-** Please contact us **
+Please contact us for a demo.
 
 The Dark Pool Monitor tracks hidden trading activity in Japan's financial markets. It shows what percentage of Nikkei 225 mini futures trading happens in dark pools — venues where prices and orders are invisible — and who is driving it. Built entirely from public JPX data, it is the only analytical tool that reconstructs Japan's opaque off-exchange market structure and flags statistically unusual months for surveillance and compliance teams.
