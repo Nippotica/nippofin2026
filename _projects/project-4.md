@@ -1,49 +1,39 @@
 ---
 layout: page
-title: "Data Quality Management"
-description: "Extract, Label, Transform"
-img: assets/images/gen/projects/nippodqmthumb.webp
-tags: hpc quant data-quality
+title: "System Development"
+description: "Delivering solutions in three steps"
+img: assets/images/gen/projects/nipposysdevthumb.webp
+importance: 2
+category: invisible
 related_publications: true
-importance: 4
-category: work
 ---
 
-Faulty data kills profits—accurate, clean data powers everything from risk models to regulatory compliance, ensuring every trade and decision rests on solid ground. {% cite buzzelli2022data reis2022fundamentals %}
+Financial systems encode contracts, not just data—the wrong development methodology turns domain complexity into costly errors where poor performance becomes liabilities. {% cite kleppmann2017designing stopford2018designing %}
 
-> Nippofin: Your data's best friend.
+Nippofin delivers financial computing solutions on your cloud of choice (AWS, Azure, GCP) through a streamlined three-step approach.
 
-You know that high-quality data is essential for financial computing. {% cite borowicz2024data %}
+> Requirement Analysis and System Design
 
-Nippofin's Data Quality Management (DQM) services ensure your financial computations are accurate, reliable, and compliant.
+We begin by understanding your specific financial models, computational needs, and regulatory requirements. Our team designs a scalable, fault-tolerant architecture using cloud-native features to ensure high performance and reliability.
 
-{% include figure.liquid path="assets/images/gen/projects/nippoticadqm.png" class="img-fluid rounded" %}
+> Development and Deployment
 
-Our DQM process covers three crucial aspects:
+Our developers implement optimized algorithms and data pipelines, using containerization for efficiency. We ensure smooth integration and rigorous testing before deploying the system with automated CI/CD pipelines.
 
-### Ingestion & Validation
-Collect and validate data from various sources using automated rules.
+> Optimization and Maintenance
 
-### Transformation & Cleansing
-Standardize, transform, and cleanse data to ensure consistency and accuracy.
+Post-deployment, we continuously monitor and optimize system performance, manage costs, and update software to maintain security and compliance. Our proactive approach ensures your system remains robust and efficient.
 
-### Monitoring & Reporting
-Continuously monitor data quality and generate regular reports to maintain integrity and compliance.
+> Nippofin develops robust, scalable, and cost-effective system solutions tailored to your needs.
 
-And the benefits to our clients include:
-
-- Accurate models, fewer errors, better decisions
-- Lower latency, fewer errors, better trades
-- Reliable assessments, robust tests, compliant results
-
----
+{% include figure.liquid path="assets/images/gen/projects/nippowcsysdev.webp" caption="Nippofin's production stack for high-performance finance" class="img-fluid rounded z-depth-1" %}
 
 ## Related Insights
 
-{% assign related_posts = site.posts | where_exp: "post", "post.tags contains 'data-quality'" | limit: 3 %}
+{% assign related_posts = site.posts | where_exp: "post", "post.tags contains 'hpc' or post.tags contains 'fintech' or post.tags contains 'machine-learning'" %}
 
 <ul class="post-list">
-{% for post in related_posts %}
+{% for post in related_posts limit:4 %}
   <li>
     <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
     <p>{{ post.description }}</p>

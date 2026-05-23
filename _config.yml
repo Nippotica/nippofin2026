@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Nippofin # blog_name will be displayed in your blog page
-blog_description: "financial computing insights"
+blog_description: quantitative finance and insurance research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -301,13 +301,11 @@ jekyll-archives:
 
 display_tags: 
   - quant
-  - risk-management
-  - derivatives
+  - synthetic-data
+  - market-signals
   - insurance
-  - hpc
   - machine-learning
   - fintech
-  - data-quality
   - 日本語
 display_categories:  # these categories will be displayed on the front page of your blog
 

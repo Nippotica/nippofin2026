@@ -1,44 +1,49 @@
 ---
 layout: page
-title: "System Development"
-description: "Delivering solutions in three steps"
-img: assets/images/gen/projects/nipposysdevthumb.webp
-importance: 2
-category: work
+title: "SynthDrive"
+description: "Telematics data: synthetically generated, actuarial-grade"
+img: assets/images/gen/projects/nippodqmthumb.webp
+tags: quant insuretech
 related_publications: true
+importance: 3
+category: Synthetic Data
 ---
 
-Financial systems encode contracts, not just data—the wrong development methodology turns domain complexity into costly errors where poor performance becomes liabilities. {% cite kleppmann2017designing stopford2018designing %}
+> SynthDrive generates policy-level synthetic telematics portfolios—driver variables, vehicle variables, usage and driving-behavior signals, claim counts, and claim amounts—without requiring access to proprietary insurer data. 
 
-Nippofin delivers financial computing solutions on your cloud of choice (AWS, Azure, GCP) through a streamlined three-step approach.
+You specify a portfolio size and a random seed; SynthDrive returns a reproducible dataset with the actuarial structure needed for pricing, fraud, and UBI model development.
 
-> Requirement Analysis and System Design
+{% include figure.liquid path="assets/images/gen/projects/synthdrive_dashboard.webp" class="img-fluid rounded" %}
 
-We begin by understanding your specific financial models, computational needs, and regulatory requirements. Our team designs a scalable, fault-tolerant architecture using cloud-native features to ensure high performance and reliability.
+### What Makes It Unique
 
-> Development and Deployment
+- **Constraint-aware by design.** Compositional driving variables are enforced to sum correctly, exposure bounds are hard constraints, and claim amounts are zero whenever claim counts are zero. The dataset cannot be silently invalid.
+- **Frequency-severity decomposition built in.** Claim counts follow a zero-inflated negative binomial model with an exposure offset. Severity is drawn from a Gamma model, risk-adjusted per policy. The pipeline matches the standard actuarial GLM framework, not a black-box regressor.
+- **Validated against a public benchmark.** GLM coefficients, marginal distributions, and frequency relativities are compared against the So–Boucher–Valdez (2021) public synthetic telematics dataset. The validation report documents what the generator reproduces, what is approximate, and what is not tested.
 
-Our developers implement optimized algorithms and data pipelines, using containerization for efficiency. We ensure smooth integration and rigorous testing before deploying the system with automated CI/CD pipelines.
+---
 
-> Optimization and Maintenance
+### Use Cases
 
-Post-deployment, we continuously monitor and optimize system performance, manage costs, and update software to maintain security and compliance. Our proactive approach ensures your system remains robust and efficient.
+- Build and benchmark UBI pricing models without requesting proprietary insurer data.
+- Test frequency and severity GLMs, GBMs, or neural claim models on a controlled synthetic portfolio before applying them to real data.
+- Evaluate synthetic-data algorithms against a structured actuarial baseline with known ground truth.
 
-> Nippofin develops robust, scalable, and cost-effective system solutions tailored to your needs.
+---
 
-{% include figure.liquid path="assets/images/gen/projects/nippowcsysdev.webp" caption="Nippofin's production stack for high-performance finance" class="img-fluid rounded z-depth-1" %}
+### How It Works
 
-## Related Insights
+SynthDrive generates each synthetic policy in three steps: a Gaussian copula produces correlated driver, vehicle, and telematics variables; a zero-inflated negative binomial model assigns claim counts scaled to exposure; and a Gamma model draws claim amounts for policies that claim. No neural networks, no GPU. 
 
-{% assign related_posts = site.posts | where_exp: "post", "post.tags contains 'hpc' or post.tags contains 'fintech' or post.tags contains 'machine-learning'" %}
+Parameters are calibrated from public synthetic telematics datasets. {% cite so2021synthetic  duval2022much %}
 
-<ul class="post-list">
-{% for post in related_posts limit:4 %}
-  <li>
-    <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-    <p>{{ post.description }}</p>
-    <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
-  </li>
-{% endfor %}
-</ul>
+
+
+### Access
+
+[Read the white paper →](#) · [View on GitHub →](#)
+
+
+---
+
 

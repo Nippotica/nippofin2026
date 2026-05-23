@@ -2,14 +2,16 @@
 layout: page
 title: solutions
 permalink: /solutions/
-description: Nippofin solutions for the financial industry
+description: Nippofin products for quantitative finance and insurance research.
 nav: true
 nav_order: 2
-display_categories: [work]
+display_categories: [Synthetic Data, Market Signals]
 horizontal: false
 ---
 
+> Nippofin builds synthetic data generators and market signal tools for quantitative finance and insurance. 
 
+Our products are formally specified, peer-reviewed, and built for researchers, quants, and fintech developers who need data and signals that real markets can't reliably supply.
 
 
 <!-- pages/projects.md -->
@@ -67,10 +69,3 @@ horizontal: false
 {% endif %}
 </div>
 
-> Nippofin delivers production-ready financial computing systems for institutional finance. 
-
-As Nippotica Corporation's fintech business unit, we develop and maintain quantitative models and cloud infrastructure that power critical decisions at leading financial institutions. Our solutions span derivatives pricing, risk management, data quality assurance, and cloud optimization—combining sophisticated quantitative methods with scalable, reliable infrastructure.
-
-> We work closely with clients to translate business objectives into robust technical solutions. 
-
-From data analysis and model development through deployment and support, we maintain a unified software library that ensures consistency and efficiency. Our comprehensive documentation and ongoing collaboration mean clients fully understand their systems and can trust them for high-stakes decisions.

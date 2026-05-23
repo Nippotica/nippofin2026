@@ -1,49 +1,45 @@
 ---
 layout: page
-title: "Computing on Clouds"
-description: "Fast hardware needs the right software"
-img: assets/images/gen/projects/nippocloudthumb.webp
+title: "TransData"
+description: "Synthetic order flow for exchange surveillance"
+img: assets/images/gen/projects/nipposysdevthumb.webp
 importance: 2
-category: work
+category: Synthetic Data
 related_publications: true
-date: 2024-06-20
+date: 2026-05-22
 ---
 
-Cloud computing enables financial institutions to run compute-intensive tasks like derivatives pricing, risk simulations, and portfolio optimization at scale without maintaining expensive on-premise infrastructure. {% cite storment2019cloud sanchez2024efficient %}
-
-> Fast hardware needs the right software
 
 
-Nippofin provides engineering services tailored for financial institutions, with a strong emphasis on optimizing financial computing in the cloud. 
+> TransData generates realistic order and trade records for exchange-traded derivatives — complete with embedded manipulation patterns and ground-truth labels. 
 
-{% include figure.liquid path="assets/images/gen/projects/nippocloudbpmn.png" class="img-fluid rounded" %}
-
-Our offerings include:
-
-#### Cloud Integration
-Utilize Nvidia's cutting-edge processors, including A100 and H100, to accelerate complex financial computations, delivering results faster than ever.
-
-#### Scalability and Flexibility
-Design and implement scalable solutions that grow with your business needs, providing flexibility and cost-efficiency in cloud resource management.
-
-#### Performance Optimization
-Fine-tune your financial applications for maximum performance on cloud infrastructure, reducing latency and enhancing computational speed.
-
-
-> Partner with Nippofin to leverage the full potential of cloud computing, transforming your financial operations with speed, efficiency, and innovation.
+You configure the scenario; TransData produces a fully reproducible, timestamped transaction log with no real member data, no confidentiality risk, and no licensing constraints.
 
 ---
 
-## Related Insights
+{% include figure.liquid path="assets/images/gen/projects/nippoticatransdata.png" class="img-fluid rounded" %}
 
-{% assign related_posts = site.posts | where_exp: "post", "post.tags contains 'hpc' or post.tags contains 'quant' or post.tags contains 'machine-learning'" %}
+### What Makes It Unique
 
-<ul class="post-list">
-{% for post in related_posts limit:4 %}
-  <li>
-    <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
-    <p>{{ post.description }}</p>
-    <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
-  </li>
-{% endfor %}
-</ul>
+- Every output is labeled. Spoofing, wash trading, layering, and momentum ignition are injected by design and tagged at the event level — giving surveillance models the ground truth that real data never provides.
+- Fully configurable. Control instrument, session length, volatility regime, agent mix, and abuse intensity through scenario files. Every dataset is reproducible from its parameters.
+- Safe to share. No real orders, no member identities, no proprietary strategies. Use it with vendors, partners, regulators, and new staff without restriction.
+
+---
+
+### Use Cases
+
+- Train and benchmark manipulation detection models without touching confidential production data.
+- Stress-test matching engines, surveillance pipelines, and alert logic against high-load and edge-case flows before deployment.
+- Run compliance training and regulatory demonstrations using reproducible, documented scenarios.
+
+---
+
+### Methodology
+
+TransData generates a limit order book using statistically calibrated agents whose arrival rates cluster in time — quiet periods punctuated by bursts, the way real markets behave. Abusive agents inject manipulation patterns on top of this baseline at controlled intensities. Every scenario is fully reproducible from its parameter file and random seed. {% cite rocsu2009dynamic  bartolozzi2010multi cont2021stochastic %}
+
+---
+
+### Access
+[Request a Demo →]

@@ -2,27 +2,25 @@
 layout: about
 title: home
 permalink: /
-subtitle: Fast Financial Computing
+subtitle: Synthetic data. Market signals. Built for quants.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: nippofin_pic.jpg
+  image_circular: false
   more_info: >
-    <p>We speed up your </p>
-    <p> computational workloads</p>
+    <p>Synthetic data and market signals</p>
+    <p>for quantitative finance and insurance</p>
 
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 ---
 
-Nippofin delivers production-ready financial computing systems for institutional finance. From derivatives pricing to portfolio risk management, our solutions transform complex quantitative models into fast, reliable decision-making tools.
+Real financial data is scarce, expensive, and legally restricted. Nippofin builds the alternative — synthetic datasets with mathematically enforced constraints, and live market regime signals grounded in statistical theory.
 
-> Nippofin = Fast Financial Computing for Institutional Markets
+> Synthetic data. Market signals. Built for quants.
 
-Our solutions empower securities firms, asset management companies, insurance institutions, and investment banks with cutting-edge tools for derivatives pricing, risk analytics, and investment strategy development. 
+Our products are formally specified and peer-reviewed. They are built for quantitative researchers, algorithmic traders, and fintech developers who need data and signals that real markets can't reliably supply.
 
-From initial architecture design through production deployment and ongoing support, our end-to-end services ensure we meet the unique performance and compliance requirements of every engagement.
-
-With decades of experience serving major financial institutions, our team consistently delivers systems where speed, precision, and reliability are paramount.
+Nippofin is the fintech business unit of Nippotica Corporation, Tokyo.
