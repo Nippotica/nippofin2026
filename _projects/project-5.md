@@ -13,6 +13,8 @@ date: 2026-05-22
 
 > FlowRegime reads BTC-USDT order flow every 15 minutes and tells you whether the market is trending, ranging, or chaotic. 
 
+**[FlowRegime in action → click here](https://flowregime.nippotica.com/)**
+
 Each output includes a confidence score for all three states — not just a label, but a probability.
 
 ---
@@ -39,8 +41,12 @@ Each output includes a confidence score for all three states — not just a labe
 ---
 
 ### Access
+
 API for 15-minute labels and full confidence vector.
-[**Get access →**](mailto:info@nippotica.com)
+
+> **[Signup for API access → click here](https://flowregime.nippotica.com/)**
+
+[More info → contact us](mailto:info@nippotica.com)
 
 ---
 

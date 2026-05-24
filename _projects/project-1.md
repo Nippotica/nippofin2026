@@ -11,7 +11,9 @@ date: 2026-05-22
 
 
 
-> TransData generates realistic order and trade records for exchange-traded derivatives — complete with embedded manipulation patterns and ground-truth labels. 
+TransData generates realistic order and trade records for exchange-traded derivatives — complete with embedded manipulation patterns and ground-truth labels. 
+
+> **[TransData in action → click here](https://transapps.nippotica.com)**
 
 You configure the scenario; TransData produces a fully reproducible, timestamped transaction log with no real member data, no confidentiality risk, and no licensing constraints.
 
@@ -42,4 +44,7 @@ TransData generates a limit order book using statistically calibrated agents who
 ---
 
 ### Access
-[Request a Demo →]
+
+> [Experience TransData → click here](https://transapps.nippotica.com)
+
+[Need more info? → contact us](mailto:info@nippotica.com)
