@@ -11,6 +11,16 @@ category: Synthetic Data
 
 > SynthDrive generates policy-level synthetic telematics portfolios—driver variables, vehicle variables, usage and driving-behavior signals, claim counts, and claim amounts—without requiring access to proprietary insurer data. 
 
+### Usage-Based Insurance (UBI)
+
+The diagram below illustrates how a UBI system works from data collection through to pricing and claims outcomes.The diagram illustrates how a usage-based insurance system works from data collection through to pricing and claims outcomes.
+
+{% include figure.liquid path="assets/images/gen/projects/nippoticaubiconcept.webp" class="img-fluid rounded" %}
+
+A telematics device captures how, when, and how far a vehicle is driven — along with hard acceleration, harsh braking, and cornering events. That behavioral data replaces demographic proxies in the risk assessment, producing a premium calibrated to actual driving rather than assumed risk, and supporting downstream functions like fault determination and vehicle recovery.
+
+### How SynthDrive Works
+
 You specify a portfolio size and a random seed; SynthDrive returns a reproducible dataset with the actuarial structure needed for pricing, fraud, and UBI model development.
 
 {% include figure.liquid path="assets/images/gen/projects/nippoticasynthdrive.webp" class="img-fluid rounded" %}
