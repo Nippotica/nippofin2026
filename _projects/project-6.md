@@ -17,6 +17,8 @@ You specify the market pairs; FlowState tells you which is currently leading whi
 
 {% include figure.liquid path="assets/images/gen/projects/nippoticaflowstate.webp" class="img-fluid rounded" %}
 
+FlowState has a three-stage pipeline: market pair inputs (Tokyo/New York) with their ~8–12 hour lag annotated, a central Transfer Entropy Engine that computes a directional asymmetry score and validates it against 1,000 surrogate shuffles, and a ranked daily signal feed on the right showing which market leads which, how long the regime has persisted, and whether the signal is statistically significant.
+
 ---
 
 ### What Makes It Unique
@@ -49,4 +51,4 @@ Core methodology validated on N225/SPY and DAX/SPY pairs. Additional exchange pa
 
 ### Access
 
-[Request a data trial →]
+[Need more info? → contact us](mailto:info@nippotica.com)
