@@ -18,11 +18,13 @@ selected_papers: false
 social: true
 ---
 
-> Real financial data is scarce, expensive, and restricted. 
+
+> Markets can't always supply the data you need. We generate it.
+
+Real financial data is scarce, expensive, and restricted.
 
 Nippofin builds the alternative — synthetic datasets with mathematically enforced constraints, and live market regime signals grounded in statistical theory.
 
-**Markets can't always supply the data you need. We generate it.**
 
 Our products are formally specified and peer-reviewed. They are built for quantitative researchers, algorithmic traders, and fintech developers who need data and signals that real markets can't reliably supply.
 
