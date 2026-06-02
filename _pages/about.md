@@ -19,7 +19,7 @@ social: true
 ---
 
 
-> Markets can't always supply the data you need. We generate it.
+> Markets don't always supply the data you need. We generate it.
 
 Real financial data is scarce, expensive, and restricted.
 
