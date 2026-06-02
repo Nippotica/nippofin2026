@@ -13,7 +13,7 @@ category: Synthetic Data
 
 ### Usage-Based Insurance (UBI)
 
-The diagram below illustrates how a UBI system works from data collection through to pricing and claims outcomes.The diagram illustrates how a usage-based insurance system works from data collection through to pricing and claims outcomes.
+The diagram illustrates how a usage-based insurance system works from data collection through to pricing and claims outcomes.
 
 {% include figure.liquid path="assets/images/gen/projects/nippoticaubiconcept.webp" class="img-fluid rounded" %}
 
