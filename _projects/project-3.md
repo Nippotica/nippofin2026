@@ -13,7 +13,9 @@ category: Synthetic Data
 
 You specify a portfolio size and a random seed; SynthDrive returns a reproducible dataset with the actuarial structure needed for pricing, fraud, and UBI model development.
 
-{% include figure.liquid path="assets/images/gen/projects/synthdrive_dashboard.webp" class="img-fluid rounded" %}
+{% include figure.liquid path="assets/images/gen/projects/nippoticasynthdrive.webp" class="img-fluid rounded" %}
+
+SynthDrive has a three-stage generation pipeline. From left to right, a Gaussian copula samples correlated driver, vehicle, and telematics features jointly; a zero-inflated negative binomial model assigns claim counts with an exposure offset, reflected in the characteristic zero-spike frequency distribution shown at center; and a Gamma model draws claim amounts for policies with at least one claim, shown as a right-skewed severity density at right. The three stages feed into a single output portfolio of 100,000 policy-level rows across 52 columns. 
 
 ### What Makes It Unique
 
@@ -41,7 +43,7 @@ Parameters are calibrated from public synthetic telematics datasets. {% cite so2
 
 ### Access
 
-[Read the white paper →](#) · [View on GitHub →](#)
+[Need more info? → contact us](mailto:info@nippotica.com)
 
 
 ---
