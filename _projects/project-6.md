@@ -15,7 +15,7 @@ date: 2026-05-22
 
 You specify the market pairs; FlowState tells you which is currently leading which — and how persistently — using Transfer Entropy {% cite schreiber2000measuring %} rather than correlation. The output is a ranked signal feed your desk can act on.
 
-{% include figure.liquid path="assets/images/gen/projects/flowstatedashboard.webp" class="img-fluid rounded" %}
+{% include figure.liquid path="assets/images/gen/projects/nippoticaflowstate.webp" class="img-fluid rounded" %}
 
 ---
 
