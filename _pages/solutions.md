@@ -5,13 +5,13 @@ permalink: /solutions/
 description: Nippofin products for quantitative finance and insurance research.
 nav: true
 nav_order: 2
-display_categories: [Synthetic Data, Market Signals]
+display_categories: [Synthetic Data, Market Signals, Models]
 horizontal: false
 ---
 
-> Nippofin builds synthetic data generators and market signal tools for quantitative finance and insurance. 
+> Nippofin builds synthetic data generators, market signal tools, and execution models for institutional finance and insurance research.
 
-Our products are formally specified, peer-reviewed, and built for researchers, quants, and fintech developers who need data and signals that real markets can't reliably supply.
+Our products are formally specified, peer-reviewed, and built for researchers, quants, and fintech developers who need data, signals, and analytics that real markets don't reliably supply.
 
 
 <!-- pages/projects.md -->
