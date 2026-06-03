@@ -6,7 +6,7 @@ img: assets/images/gen/projects/tradescopefxthumb.webp
 tags: quant  
 related_publications: true
 importance: 2
-category: Models
+category: Execution Models
 date: 2026-06-02
 ---
 
