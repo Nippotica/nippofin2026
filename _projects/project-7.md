@@ -5,7 +5,7 @@ description: "See market impact before the trade"
 img: assets/images/gen/projects/tradescopefxthumb.webp
 tags: quant  
 related_publications: true
-importance: 2
+importance: 1
 category: Execution Models
 date: 2026-06-02
 ---
