@@ -5,7 +5,7 @@ permalink: /solutions/
 description: Nippofin products for quantitative finance and insurance research.
 nav: true
 nav_order: 2
-display_categories: [Synthetic Data, Market Signals, Execution Models]
+display_categories: [Synthetic Data, Market Signals, Use Cases]
 horizontal: false
 ---
 

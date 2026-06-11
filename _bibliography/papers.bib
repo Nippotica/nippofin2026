@@ -571,3 +571,64 @@ The agents follow a noise decision making process where their actions are relate
   urldate      = {2026-06-04},
   abstract     = {Lévy-stable distributions were introduced for financial returns by Mandelbrot in 1963. They offer an advantage over the log-normal assumption in that extreme events can exist in the model. They have not been in much use because of the difficulty in performing the calculations. Most models using stable distributions have also assumed that they are stationary; when parameters are fitted to a stationary stable model, the tails are consistently found to be too heavy. The parameters for the particular example were scaled from intraday observations at one-minute intervals. The parameters chosen for the example were obtained by maximum-likelihood fitting using an FFT approximation of the stable density from the sampled stable characteristic function over six months of data, after rescaling each day's data by a value of $\gamma$~derived from an empirical characteristic fit. This method removes most of the serial dependence seen in the data and gives a value of $\alpha$~that is significantly higher than would be found by fitting the raw data, assuming the distribution is stationary. The parameters $\gamma$~and $\delta$~are selected from average days, but the user needs to be aware that $\gamma$~may vary by a factor of 2 or 3 during volatile periods in the market. The user who downloads the source may experiment with his own parameters.}
 }
+@techreport{otsuka2017darkpool,
+  author       = {大塚剛志},
+  title        = {日本におけるダーク・プールの実態分析},
+  institution  = {日本取引所グループ},
+  type         = {JPXワーキングペーパー},
+  number       = {Vol. 21},
+  year         = {2017},
+  abbr         = {JPX},
+  abstract ={近年、世界の証券市場において、ダーク・プールと呼ばれる取引市場が存在感を増
+しており、その規制の在り方等に関する議論が進展している。日本においても、その
+シェアは年々上昇しており、既に PTS を凌ぐ規模まで拡大している状況にある。また、
+2016 年 5 月～2016 年 12 月にかけて開催された、金融審議会市場ワーキング・グルー
+プにおいても議論の一端として取り上げられるなど、注目を集めているところである。
+しかしながら、これまで、日本におけるダーク・プールの分析・検証が十分に行われ
+てきたかと言えば、必ずしもそうではない。そこで、本稿では、長期的且つ広範囲に亘
+るデータ分析を通じて、日本におけるダーク・プールの現状把握を行うとともに、将来
+的な検討に資するような情報を市場関係者に提供することを目的とする。
+具体的には、基礎的情報としてのダーク・プールの数やマーケット・シェア、1 取
+引当たりの売買高、ダーク・プール運営者による自己取引の関与率、ダーク・プール
+が参照する価格の種別（ask、bid 又は mid）、約定時刻における最良気配との関係性
+（inside、at 又は outside）、主たる市場の最良気配の変化を適切にトラックできていな
+い取引（遅延取引）の状況等について、その時系列的な推移やダーク・プール別の状況
+について確認している。ダーク・プール全体の傾向としては、概ね、市場関係者が有す
+る感覚と一致する結果を得られたものの、個別のダーク・プールで見た場合、それぞ
+れ、かなり異なった特徴を有していることが判明した。
+また、遅延取引がもたらす影響に着目し、遅延取引の程度（レイテンシー）や遅延取
+引によってもたらされる追加的なコスト（レイテンシー・コスト）、レイテンシー・コ
+ストによって削減される価格改善、レイテンシー・コストの帰属主体（ダーク・プール
+内における勝者と敗者）といった点についても分析・検証している。特に、2016 年に
+おいて、レイテンシー・コストは年間 36 億円となっており、ダーク・プールの取引に
+おいては、この分だけ、敗者から勝者に利益が転嫁していることが確認できた。但し、
+レイテンシー・コストの規模は、東証市場全体の売買代金と比べると僅少であり、経済
+的な意味で重要なインパクトをもたらしているとまでは言えない。},
+  html         = {https://www.jpx.co.jp/corporate/research-study/working-paper/tvdivq0000008q5y-att/JPX_working_paper_Vol21.pdf},
+  url          = {https://www.jpx.co.jp/corporate/research-study/working-paper/tvdivq0000008q5y-att/JPX_working_paper_Vol21.pdf}
+}
+@techreport{wakamatsu2026darkpool,
+  author       = {Wakamatsu, Hiroaki},
+  title        = {The Impact of Dark Pools on the Market and Market Quality},
+  institution  = {Japan Exchange Group},
+  type         = {JPX Working Paper},
+  number       = {Vol. 51},
+  year         = {2026},
+  abbr         = {JPX},
+  abstract     = {This paper analyzes dark pool trading in Japan using data from August 2020 to November 2024, covering the period after dark pool flags were introduced on the Tokyo Stock Exchange. It examines the impact of dark pool trading on market quality and the determinants of execution prices and price improvement rates within dark pools. Key findings: the dark pool ratio declines under high volatility; dark pool trading suppresses volatility under normal conditions but amplifies it under high volatility; execution prices in dark pools are influenced by TSE order book conditions and micro-prices; proprietary executions in dark pools tend to have relatively poor price improvement rates.},
+  html         = {https://www.jpx.co.jp/english/corporate/research-study/working-paper/JPXWP_Vol51e.pdf},
+  url          = {https://www.jpx.co.jp/english/corporate/research-study/working-paper/JPXWP_Vol51e.pdf}
+}
+
+@techreport{homayounfar2026darkpools,
+  author       = {Homayounfar, Kambiz},
+  title        = {Why Dark Pools Fail: A Dynamic Model of Liquidity, Adverse Selection, and Fee Design in {Japan}'s {PTS} Ecosystem},
+  institution  = {Nippotica Corporation},
+  type         = {SSRN Working Paper},
+  year         = {2026},
+  month        = {April},
+  abbr         = {SSRN},
+abstract = {Dark pools frequently fail soon after launch, while a small number achieve durable liquidity. This paper develops a dynamic model of dark pool economics calibrated to the Japanese equity market. The model combines a heterogeneous trader population, a logistic replicator migration dynamic, adverse selection feedback, and revenue-optimal fee design within a single tractable framework applied to proprietary trading system (PTS) launch. Numerical calibration to Japan equity market parameters yields an optimal fee of approximately 0.91 yen/share and annual revenue of approximately 52 million yen at 23.5% flow migration.},
+  html         = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6406500},
+  url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6406500}
+}
