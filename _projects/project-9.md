@@ -39,9 +39,21 @@ $$R^*$$, and a Go/No-Go verdict — all calibrated to Japan equity market parame
 
 The fee that maximizes annual execution fee income, derived from the inverse
 elasticity condition: the point where margin gained from a fee increase exactly
-equals order flow lost. Formally, $$f^* = \arg\max_{f_D} R(f_D)$$, where
-$$R(f_D) = f_D \cdot V_{\text{total}} \cdot \phi(f_D) \cdot T$$. Solved
-numerically — no closed form exists.
+equals order flow lost. 
+
+Formally, 
+
+$$
+f^* = \arg\max_{f_D} R(f_D)
+$$
+
+where
+
+$$
+R(f_D) = f_D \cdot V_{\text{total}} \cdot \phi(f_D) \cdot T
+$$
+
+This must be solved numerically as no closed form exists.
 
 **Migration fraction $$\phi$$**
 

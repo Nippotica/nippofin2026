@@ -13,11 +13,10 @@ date: 2026-06-02
 **[See it in action: launch TradeScope FX →](https://tradescope.nippotica.com)**
 
 
-## What's the problem?
+> The bigger the order, the worse the slippage
 
 When an institutional desk places a large USD/JPY or EUR/JPY order, the act of
-trading moves the market against them. The bigger the order, the worse the
-slippage. TradeScope FX tells you how bad — before you pull the trigger.
+trading moves the market against them. TradeScope FX tells you how bad — before you pull the trigger.
 
 ---
 
