@@ -27,7 +27,7 @@ A desk enters a proposed order — currency pair, size, execution window, and
 current market conditions. The tool returns expected slippage, adverse-case
 slippage, and timing risk, in pips and basis points.
 
-It is not a trading system. It does not place orders. It is a decision-support
+TradeScope FX is neither a trading system nor an executor of orders. It is a decision-support
 tool: trade now, slice the order, or wait for better conditions.
 
 ---
