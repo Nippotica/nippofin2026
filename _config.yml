@@ -8,8 +8,7 @@ middle_name:
 last_name:
 email: info@nippotica.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Nippofin delivers fast financial computing on clouds, specializing in financial engineering,
-  cloud optimization, system development, and data quality management.
+  Building synthetic data and market signals for quants.
 footer_text: >
   Nippofin - Nippotica's Fintech Business Unit
 
