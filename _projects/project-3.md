@@ -27,7 +27,7 @@ You specify a portfolio size and a random seed; SynthDrive returns a reproducibl
 
 {% include figure.liquid path="assets/images/gen/projects/nippoticasynthdrive.webp" class="img-fluid rounded" %}
 
-SynthDrive has a three-stage generation pipeline. From left to right, a Gaussian copula samples correlated driver, vehicle, and telematics features jointly; a zero-inflated negative binomial model assigns claim counts with an exposure offset, reflected in the characteristic zero-spike frequency distribution shown at center; and a Gamma model draws claim amounts for policies with at least one claim, shown as a right-skewed severity density at right. The three stages feed into a single output portfolio of 100,000 policy-level rows across 55 columns. 
+SynthDrive has a three-stage generation pipeline. From left to right, a Gaussian copula samples correlated driver, vehicle, and telematics features jointly; a zero-inflated negative binomial model assigns claim counts with an exposure offset, reflected in the characteristic zero-spike frequency distribution shown at center; and a Gamma model draws claim amounts for policies with at least one claim, shown as a right-skewed severity density at right. The three stages feed into a single output portfolio of 100,000 policy-level rows across 52 columns. 
 
 The methodology behind SynthDrive is described in {% cite homayounfar2026synthdrive %}.
 
