@@ -9,7 +9,7 @@ importance: 2
 category: Synthetic Data
 ---
 
-[SynthFlow on Snowflake Marketplace →](https://app.snowflake.com/marketplace)
+[SynthFlow on Snowflake Marketplace →](https://app.snowflake.com/marketplace/listing/GZT2Z1J2EEK/nippotica-corporation-synthflow-synthetic-spy-price-paths)
 
 > SynthFlow generates synthetic daily SPY price paths — calibrated regime dynamics, volatility clustering, and fat tails — for strategy robustness testing beyond the single realized history.
 
@@ -51,7 +51,7 @@ Using synthetic market data to evaluate strategies against conditions beyond the
 
 A free sample dataset — 240 synthetic two-year SPY paths spanning twelve historical periods from 2001 to 2024, each with full passport metadata and a real-SPY reference table — is available on Snowflake Marketplace.
 
-[Snowflake Marketplace →](https://app.snowflake.com/marketplace)
+[Snowflake Marketplace →](https://app.snowflake.com/marketplace/listing/GZT2Z1J2EEK/nippotica-corporation-synthflow-synthetic-spy-price-paths)
 
 ### Further Details
 

@@ -9,7 +9,7 @@ importance: 3
 category: Synthetic Data
 ---
 
-[SynthDrive on GitHub →](https://github.com/nippotica/synthdrive)
+[SynthDrive on Snowflake Marketplace →](https://app.snowflake.com/marketplace/listing/GZT2Z1J2EEG/nippotica-corporation-synthdrive-core-synthetic-telematics-portfolio)
 
 > SynthDrive generates policy-level synthetic telematics portfolios—driver variables, vehicle variables, usage and driving-behavior signals, claim counts, and claim amounts—without requiring access to proprietary insurer data. 
 
