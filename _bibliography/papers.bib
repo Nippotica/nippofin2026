@@ -644,3 +644,62 @@ abstract = {Dark pools frequently fail soon after launch, while a small number a
   html         = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6944138},
   url          = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6944138}
 }
+
+@inproceedings{homayounfar2026ohlcv,
+  author    = {Homayounfar, Kambiz and Luoni, Mario},
+  title     = {Constraint-Guaranteed Synthesis of OHLCV Data},
+  booktitle = {Proceedings of the 2026 IEEE Conference on
+               Computational Intelligence for Financial Engineering
+               and Economics},
+  shortbooktitle = {IEEE CIFEr 2026},
+  date      = {2026-09-11},
+  location  = {Tokyo, Japan},
+  abbr         = {IEEE},  
+  abstract     = {Existing generative adversarial network (GAN) based approaches to
+financial time series synthesis produce univariate return series only.
+They provide no mechanism to enforce the geometric constraints that every
+valid bar must satisfy: the High must weakly exceed both the Open and the
+Close, and the Low must weakly fall below both. We solve this through a
+constraint-by-construction reparameterization of each OHLCV bar into five
+components (close-to-close return, overnight gap, upper shadow, lower
+shadow, and volume) under which the bar constraints are algebraically
+guaranteed for every generated bar regardless of generator output. Zero
+violations were recorded across 1,255,500 generated bars; this result is
+independent of training quality and holds for any output of the trained
+generator. Building on QuantGAN, we extend the stochastic volatility
+neural network to a five-channel joint generator trained with the
+Wasserstein GAN with gradient penalty (WGAN-GP) and auxiliary losses
+targeting return drift, volume collapse, and volume-volatility
+co-movement. Evaluated on S&P~500 daily data from 2016 to 2025, the
+model reproduces the intrabar range distribution with an 8% mean error
+and produces a contemporaneous volume-volatility correlation of 0.23
+against a real value of 0.41. Volatility clustering remains an open
+problem, which we discuss alongside a concrete proposed resolution.},  
+  publisher = {IEEE},
+  keywords  = {financial-engineering}
+}
+@article{potluru2023synthetic,
+  title={Synthetic data applications in finance},
+  author={Potluru, Vamsi K and Borrajo, Daniel and Coletta, Andrea and Dalmasso, Niccol{\`o} and El-Laham, Yousef and Fons, Elizabeth and Ghassemi, Mohsen and Gopalakrishnan, Sriram and Gosai, Vikesh and Krea{\v{c}}i{\'c}, Eleonora and others},
+  journal={arXiv preprint arXiv:2401.00081},
+  abbr={arXiv},
+  abstract={Synthetic data has made tremendous strides in various commercial settings including finance, healthcare, and virtual reality. We present a broad overview of prototypical applications of synthetic data in the financial sector and in particular provide richer details for a few select ones. These cover a wide variety of data modalities including tabular, time-series, event-series, and unstructured arising from both markets and retail financial applications. Since finance is a highly regulated industry, synthetic data is a potential approach for dealing with issues related to privacy, fairness, and explainability. Various metrics are utilized in evaluating the quality and effectiveness of our approaches in these applications. We conclude with open directions in synthetic data in the context of the financial domain.},
+    html         = {https://arxiv.org/abs/2401.00081},
+  url          = {https://arxiv.org/abs/2401.00081},    
+  year={2023}
+}
+@article{takahashi2025generation,
+  title={Generation of synthetic financial time series by diffusion models},
+  author={Takahashi, Tomonori and Mizuno, Takayuki},
+  journal={Quantitative Finance},
+  volume={25},
+  number={10},
+  abbr={T\&F},
+  abstract={Despite its practical significance, generating realistic synthetic financial time series is challenging due to statistical properties known as stylized facts, such as fat tails, volatility clustering, and seasonality patterns. Various generative models, including generative adversarial networks (GANs) and variational autoencoders (VAEs), have been employed to address this challenge, although no model yet satisfies all the stylized facts. We alternatively propose utilizing diffusion models, specifically denoising diffusion probabilistic models (DDPMs), to generate synthetic financial time series. This approach employs wavelet transformation to convert multiple time series (into images), such as stock prices, trading volumes, and spreads. Given these converted images, the model gains the ability to generate images that can be transformed back into realistic time series by inverse wavelet transformation. We demonstrate that our proposed approach satisfies stylized facts.},
+  pages={1507--1516},
+  year={2025},
+    html         = {https://www.tandfonline.com/doi/full/10.1080/14697688.2025.2528697},
+  url          = {https://www.tandfonline.com/doi/full/10.1080/14697688.2025.2528697},
+  publisher={Taylor \& Francis}
+}
+
