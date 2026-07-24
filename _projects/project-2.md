@@ -27,15 +27,15 @@ You specify a historical period and a seed; SynthFlow returns a reproducible two
 
 {% include figure.liquid path="assets/images/gen/projects/nippoticasynthflowpipeline.webp" class="img-fluid rounded" %}
 
-SynthFlow's engine runs three layers in sequence. A first-order Markov chain simulates a regime sequence — quiet, normal, or stress. An EGARCH volatility recursion with a leverage term sets each day's conditional volatility. Filtered Historical Simulation draws each day's shock from a pool of real SPY standardized residuals. The three layers combine into a daily log-return, compounded into a price path. No neural networks, no GPU.
+SynthFlow's engine runs three layers in sequence. A first-order Markov chain simulates a regime sequence: quiet, normal, or stress. An EGARCH volatility recursion with a leverage term sets each day's conditional volatility. Filtered Historical Simulation (FHS) draws each day's shock from a pool of real SPY standardized residuals. The three layers combine into a daily log-return, compounded into a price path. No neural networks, no GPU.
 
 Using synthetic market data to evaluate strategies against conditions beyond the single realized record is an established application area in quantitative finance {% cite potluru2023synthetic %}. Deep generative approaches such as diffusion models are an active alternative direction in the literature {% cite takahashi2025generation %}. SynthFlow's approach also differs from generative deep-learning methods for synthetic OHLCV data, such as {% cite homayounfar2026ohlcv %}, in favoring classical, auditable statistical methods over black-box generation.
 
 ### What Makes It Unique
 
-- **Auditable by design.** Every path carries a passport — the seed, the realized regime sequence, full return/tail/volatility/drawdown statistics, and similarity scores against real SPY. A path is not a number series; it's a claim you can inspect and challenge.
-- **Honest about its limits.** The validated horizon is two years. The generator refuses longer requests rather than producing paths outside validated scope. Paths run modestly hot on volatility and drawdown depth relative to real SPY — disclosed, and directly measurable against a companion real-SPY reference table.
-- **Grounded in real market structure, not black-box generation.** No GAN, no diffusion model. EGARCH and regime-switching are transparent, auditable statistical methods with a decades-long track record in quantitative finance.
+- **Auditable by design.** Every path carries a passport: the seed, the realized regime sequence, full return/tail/volatility/drawdown statistics, and similarity scores against real SPY. A path is not a number series; it's a claim you can inspect and challenge.
+- **Transparent about its limits.** The validated horizon is two years. The generator refuses longer requests rather than producing paths outside validated scope. Paths run modestly hot on volatility and drawdown depth relative to real SPY — disclosed, and directly measurable against a companion real-SPY reference table.
+- **Grounded in real market structure.** No GAN, no diffusion model. EGARCH and regime-switching are straightforward, auditable statistical methods with a decades-long track record in quantitative finance.
 
 ---
 
