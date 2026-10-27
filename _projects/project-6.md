@@ -11,7 +11,7 @@ date: 2026-05-22
 ---
 
 
-> FlowState tells you, every day, how much the S&P 500's close tells you about the Nikkei 225's next session.
+> Every day, FlowState measures how much the S&P 500's close helps predict the Nikkei 225's next session.
 
 **[FlowState in action → click here](https://flowstate.nippotica.com/)**
 
@@ -21,26 +21,28 @@ New York closes a few hours before Tokyo opens. FlowState measures how much of T
 
 ---
 
-### What We Found
+### Insights
 
 - **The flow runs one way.** Since 2017, New York's close has carried information about Tokyo. Tokyo has carried no detectable information back.
 - **Its strength changes.** Before August 2024, the link was strong on 68% of trading days. Since then, on 17%.
 
 ---
 
-### What Makes It Different
+### Why FlowState
 
-- **One plain answer.** Each day gets a grade from A to Null, with a one-line answer anyone on the desk can read.
-- **Checked against chance.** Every reading is compared with shuffled versions of the same data, then passes five reliability checks that set its grade.
-- **Adjusted for the yen.** FlowState removes moves that only reflect the yen pushing both markets at once.
-- **Full history.** Browse any month since 2017, or major events such as the 2020 COVID crash and the 2024 yen carry unwind.
+- **It sees direction.** Correlation tells you two markets move together. It can't tell you which one moves first. FlowState can, and on every day with a detectable link since 2017, the answer has been New York.
+- **It tells you when to ignore it.** Most signals always have something to say. FlowState says "Nothing reliable" when the data doesn't support a reading. A weak day is labeled as one.
+- **It takes the yen out.** When the yen moves, both markets can move with it. FlowState strips that shared push out, so the reading reflects what New York itself is telling Tokyo.
+- **It shows its track record.** Every reading since 2017 is one click away, with major shocks marked, from the 2020 COVID crash to the 2024 yen carry unwind.
 
 ---
 
 ### Use Cases
 
-- Gauge how much weight New York's close deserves in your Tokyo morning view.
-- Check whether the US and Japan equity link your models assume still holds.
+- **The overnight question.** The S&P 500 fell 2% overnight. Will Tokyo follow? FlowState tells you how much New York's close has been worth for Tokyo lately. On an "A lot" day, New York is a reliable guide. On a "Very little" day, look to local drivers instead.
+- **Testing your model's assumptions.** Many cross-market models assume Tokyo takes its cue from New York. FlowState shows, day by day since 2017, when that held and when it broke down.
+- **Reviewing a shock.** After a crash or a policy surprise, see how tightly Tokyo was tied to New York going in. The 2024 yen carry unwind hit when the link was still strong.
+- **Briefing a committee.** One plain answer per day, with a grade behind it. No statistics lesson required.
 
 ---
 
