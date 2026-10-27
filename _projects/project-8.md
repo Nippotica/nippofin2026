@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Yen Funding Monitor"
+title: "YenFM"
 description: "How expensive is yen funding today, and is it getting tighter?"
 img: assets/images/gen/projects/yenfmthumb.webp
 tags: quant
@@ -10,8 +10,7 @@ category: Market Signals
 date: 2026-10-27
 ---
 
-
-> Yen Funding Monitor (YenFM) monitors yen funding conditions in Tokyo's bank market, updated every business day.
+> YenFM monitors yen funding conditions in Tokyo's bank market, updated every business day.
 
 **[YenFM in action → click here](https://yenfm.nippotica.com/)**
 
@@ -57,6 +56,21 @@ Tested on 4,839 Tokyo business days, from October 29, 2007 to October 16, 2026.
 - **Covid shock.** The first alert came on March 9, 2020.
 - **Rate changes alone.** No alert when negative rates began in January 2016, and none after the July 2024 hike. Two alerts came within a month of a Bank of Japan decision, in March 2024 and January 2025. The daily reading notes this.
 - **Unexplained alerts.** One in 19 years, on February 20, 2026, with no market episode or Bank of Japan decision behind it.
+
+---
+
+### Sources
+
+**Data**
+
+- JBA TIBOR Administration, [Japanese Yen TIBOR](https://www.jbatibor.or.jp/english/rate/). Includes the notice of February 24, 2017 on the TIBOR reform that took effect on July 24, 2017.
+- Japan Securities Dealers Association, [Tokyo Repo Rate](https://www.jsda.or.jp/shiryoshitsu/toukei/trr/index.html) (in Japanese). Publisher since October 29, 2012.
+- Bank of Japan, [Tokyo Repo Rate](https://www.boj.or.jp/en/statistics/stop/trp/index.htm). Publisher from October 29, 2007 to October 26, 2012.
+
+**Changes in how the rates are set**
+
+- Bank of Japan, [Market Operations in Fiscal 2012](https://www.boj.or.jp/research/brp/ron_2013/data/ron130509a.pdf) (in Japanese), May 2013. Box 2 covers the shorter bond settlement from April 23, 2012.
+- Japan Securities Clearing Corporation, [Shortening of JGB Settlement Cycle to T+1 Goes Live on May 1](https://www.jpx.co.jp/jscc/en/information/news/20180429.html), April 29, 2018.
 
 ---
 
