@@ -11,7 +11,9 @@ date: 2026-05-22
 ---
 
 
-> Every day, FlowState measures how much the S&P 500's close helps predict the Nikkei 225's next session.
+> Every day, FlowState measures how much the S&P 500's close helps predict the Nikkei 225's next daily move.
+
+New York's close guides Tokyo some days. Other days, it's noise. FlowState tells you which.
 
 **[FlowState in action → click here](https://flowstate.nippotica.com/)**
 
