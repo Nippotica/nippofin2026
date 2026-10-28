@@ -14,15 +14,17 @@ date: 2026-10-27
 
 **[YenFM in action → click here](https://yenfm.nippotica.com/)**
 
-Each day, YenFM reads two published interest rates and answers two questions in plain sentences. Is borrowing yen getting more expensive? Is it getting tighter? The two can move separately. A Bank of Japan rate hike makes yen more expensive without making it tighter.
+Each day, YenFM reads two published interest rates and answers two questions in plain terms. Is borrowing yen getting more expensive? Is it getting tighter? The two can move separately. 
+
+A Bank of Japan rate hike makes yen more expensive without making it tighter.
 
 {% include figure.liquid path="assets/images/gen/projects/yenfmhero.webp" class="img-fluid rounded" %}
 
-YenFM starts from two 3-month rates. TIBOR is the rate banks charge each other for unsecured loans. The Tokyo repo rate is the rate for loans backed by Japanese government bonds. From these it builds two measures. Funding cost is TIBOR itself. The unsecured premium is TIBOR minus repo, the extra pay lenders ask for lending without collateral. Both measures are compared with their own daily history since 2007, and the result is a short daily reading.
+YenFM uses two 3-month rates. TIBOR is the rate banks charge each other for unsecured loans. The Tokyo repo rate is the rate for loans backed by Japanese government bonds. From these it builds two measures. Funding cost is TIBOR itself. The unsecured premium is TIBOR minus repo, the extra pay lenders ask for lending without collateral. Both measures are compared with their own daily history since 2007, and the result is a short daily reading.
 
 ---
 
-### What Makes It Unique
+### Why YenFM
 
 - **Separates rate moves from funding stress.** A Bank of Japan decision moves TIBOR and repo by about the same amount, so it largely cancels in the premium. A widening premium therefore points to lending conditions.
 - **Transparent.** Every number on screen is a published rate or the difference between two. There is no black-box score.
