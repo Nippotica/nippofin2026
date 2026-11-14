@@ -14,21 +14,19 @@ date: 2026-10-27
 
 **[YenFM in action → click here](https://yenfm.nippotica.com/)**
 
-Each day, YenFM reads two published interest rates and answers two questions in plain terms. Is borrowing yen getting more expensive? Is it getting tighter? The two can move separately. 
-
-A Bank of Japan rate hike makes yen more expensive without making it tighter.
+Each day, YenFM reads two published interest rates and answers two questions in plain sentences. Is borrowing yen getting more expensive? Is it getting tighter? The two can move separately. A Bank of Japan rate hike makes yen more expensive without making it tighter.
 
 {% include figure.liquid path="assets/images/gen/projects/yenfmhero.webp" class="img-fluid rounded" %}
 
-YenFM uses two 3-month rates. TIBOR is the rate banks charge each other for unsecured loans. The Tokyo repo rate is the rate for loans backed by Japanese government bonds. From these it builds two measures. Funding cost is TIBOR itself. The unsecured premium is TIBOR minus repo, the extra pay lenders ask for lending without collateral. Both measures are compared with their own daily history since 2007, and the result is a short daily reading.
+YenFM starts from two 3-month rates. TIBOR is the rate banks charge each other for unsecured loans. The Tokyo repo rate is the rate for loans backed by Japanese government bonds. From these it builds two measures. Funding cost is TIBOR itself. The unsecured premium is TIBOR minus repo, the extra pay lenders ask for lending without collateral. Both measures are compared with their own daily history since 2007, and the result is a short daily reading.
 
 ---
 
-### Why YenFM
+### What Makes It Unique
 
 - **Separates rate moves from funding stress.** A Bank of Japan decision moves TIBOR and repo by about the same amount, so it largely cancels in the premium. A widening premium therefore points to lending conditions.
 - **Transparent.** Every number on screen is a published rate or the difference between two. There is no black-box score.
-- **Few alerts.** Over 19 years of daily data, the alert fired on 9 days.
+- **Few alerts.** Over 19 years of daily data, the alert fired on 8 days.
 - **Clean history.** Four changes in how the rates are set, in 2012, 2017 and 2018, are marked and kept out of the statistics.
 
 ---
@@ -52,11 +50,11 @@ YenFM covers the Tokyo interbank market. It does not measure yen raised through 
 
 ### Track Record
 
-Tested on 4,839 Tokyo business days, from October 29, 2007 to October 16, 2026.
+Tested on 4,647 Tokyo business days, from October 29, 2007 to October 30, 2026.
 
 - **2008 crisis.** Alerts fired. The first came on October 29, 2008, six weeks after Lehman Brothers failed. YenFM flags funding stress as it builds. It does not predict it.
 - **Covid shock.** The first alert came on March 9, 2020.
-- **Rate changes alone.** No alert when negative rates began in January 2016, and none after the July 2024 hike. Two alerts came within a month of a Bank of Japan decision, in March 2024 and January 2025. The daily reading notes this.
+- **Rate changes alone.** No alert when negative rates began in January 2016, and none after the hikes of July 2024 and January 2025. One alert came in March 2024, just after the Bank of Japan ended negative rates. The daily reading notes this.
 - **Unexplained alerts.** One in 19 years, on February 20, 2026, with no market episode or Bank of Japan decision behind it.
 
 ---
